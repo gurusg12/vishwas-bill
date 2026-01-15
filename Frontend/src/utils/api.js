@@ -2,8 +2,8 @@ import axios from "axios";
 
 /*
   Priority:
-  1. VITE_API_BASE_URL (local dev)
-  2. Render production URL (fallback)
+  1. VITE_API_BASE_URL (local development)
+  2. Render production backend (fallback)
 */
 
 const API_BASE_URL =
