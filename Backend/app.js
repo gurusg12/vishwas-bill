@@ -31,7 +31,8 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT} 🚀`);
   console.log(`API URL: http://localhost:${PORT}/api`);
-  console.log(`Live on Render: https://bill-inventory-backend.onrender.com`);
+  console.log(`Live on Render: https://vishwas-bill-backend.onrender.com`);
+
 });
 
 process.on("SIGTERM", () => process.exit(0));
